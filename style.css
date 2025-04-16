@@ -1,0 +1,71 @@
+/* BALISES */
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+p {
+    margin: auto;
+}
+
+/* ID */
+
+#testimony {
+    margin: 0px 150px;
+}
+
+/* CLASSES */
+
+.hero {
+    background: url('images/surf-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 200px;
+    color: white;
+}
+
+.points {
+    margin: 40px 30px 80px 30px;
+}
+
+.row {
+    margin: 0 40px;
+}
+
+.card {
+    border-width: 0;
+}
+
+.titreh1 {
+    margin-top: 60px;
+}
+
+.testimony {
+    margin: 40px 80px 80px 80px;
+    border-width: 1px;
+}
+
+.card-body {
+    min-height: 168px;
+}
+
+.price {
+    padding: 0 100px;
+    border-width: 1px;
+}
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card {
+    min-width: 300px;
+}
